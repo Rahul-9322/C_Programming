@@ -1,0 +1,53 @@
+/*
+   Step 1 :      Understand the problem statement
+   Step 2 :      write the algoritm
+   Step 3 :      Decide the program language 
+   Step 4 :      Write the program
+   Step 5 :      Test the program
+
+*/
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Step 1 : Understand the problem statement
+            User is going to enter any 2 integers and we have to perform addition
+//
+//
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/*Step 2 : write the algorithm
+//
+         start
+            Accept first number No1
+            Accept first number No2
+            Create the variable as ANS to store result
+            Perform the addition and store in ANS
+            Display the Result from ANS
+         end
+*/
+////////////////////////////////////////////////////////////////////////////////////////
+// step 3 : Decide the program language 
+//            We Select C programming
+////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+//
+//Step 4 : Write the program
+//
+////////////////////////////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+int main()
+{
+    int ivalue1 = 10, ivalue2 = 11, iResult =  0;
+
+    iResult = ivalue1 + ivalue2;         // Business logic
+    
+    printf("%d\n",iResult);
+
+
+    return 0;
+}
